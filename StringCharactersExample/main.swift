@@ -38,3 +38,12 @@ print(s.isEmpty)
 print(l.isEmpty)
 
 
+print(name.lowercased())
+print(name.uppercased())
+
+print(name.first)
+print(name.last)
+print(name.dropLast())
+print(name.randomElement())
+
+
