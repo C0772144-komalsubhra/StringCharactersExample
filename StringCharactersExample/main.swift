@@ -73,6 +73,38 @@ b="hello"
 print(b ?? "No value")
 print(b!.lowercased())
 
+for _ in 1...10{
+    print("komal")
+}
+for i in 1...10{
+    print("\(i)komal")
+}
+for i in 1..<10{
+    print(i)
+}
+
+for o in 1...10{
+    if o % 2 == 0 {
+       print("\(o) is even number")
+     } else {
+       print("\(o) is odd number")
+     }
+}
+
+for i in stride(from:1,to:10,by:2){
+    print(i)
+}
+
+for i in stride(from: 10, through: 1, by: -1){
+    print(i)
+}
+
+
+
+
+
+
+
 
 
 
