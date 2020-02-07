@@ -99,6 +99,62 @@ for i in stride(from: 10, through: 1, by: -1){
     print(i)
 }
 
+var country = ["India","canada","australia","engalnd"]
+print(country)
+for c in country{
+    print(c)
+}
+print(country[0])
+
+print(country.count)
+country.append("sri lanka")
+print(country)
+country=["c1","c2"]
+print(country)
+//var c1 = country[2...3]
+
+print(country)
+var x = Array(repeating: 0, count: 10)
+print(x)
+print(type(of:country))
+print(type(of:x))
+var z = Array<Double>()
+z.append(100.0)
+print(z)
+var g = [100, 200, 300, 400, 500]
+
+
+print("--- NEW ---")
+for i in g[5...]
+{
+    print(i)
+}
+
+print("--- NEW ---")
+
+
+print("--- NEW ---")
+
+var d = [2...5]
+print("--- Special NEW ---")
+for i in g
+{
+    print(i)
+}
+
+print("Size of e \(g.count)")
+
+var threeDoubles = Array(repeating: 0.0, count: 3)
+
+for (k, v) in g.enumerated()
+{
+    print("Index : \(k)-->\(v)")
+}
+let cc = [1,2,3,4,5,6,7,8,9]
+print(cc.capacity)
+
+
+
 
 
 
