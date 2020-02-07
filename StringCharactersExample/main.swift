@@ -45,5 +45,12 @@ print(name.first)
 print(name.last)
 print(name.dropLast())
 print(name.randomElement())
-
+let indentedText = """
+  Hello, this text is indented by
+  two spaces from the closing quotes
+"""
+print(indentedText)
+ var myname="komal"
+var greeting="Hello \(myname)"
+print(greeting)
 
