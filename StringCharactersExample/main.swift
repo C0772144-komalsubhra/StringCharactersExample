@@ -44,7 +44,7 @@ print(name.uppercased())
 print(name.first)
 print(name.last)
 print(name.dropLast())
-print(name.randomElement())
+print(name.randomElement()!)
 let indentedText = """
   Hello, this text is indented by
   two spaces from the closing quotes
@@ -53,4 +53,26 @@ print(indentedText)
  var myname="komal"
 var greeting="Hello \(myname)"
 print(greeting)
+let half="%" as Character
+print(half.isNumber)
+var a : Int?
+a=10
+//a=nil
+if let x = a{
+    print(x.words)
+}
+else
+{
+    print("a is nil")
+}
+print(a!.words)
+
+var b : String?
+b="hello"
+
+print(b ?? "No value")
+print(b!.lowercased())
+
+
+
 
